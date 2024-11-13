@@ -1,0 +1,72 @@
+Notes on guitar
+
+I want to
+- first make an electric guitar
+
+ELECTRIC GUITARS
+- Programming electric guitar virtual instruments involves calculating the behavior of strings when plucked, considering variables such as tension, length, and material. These calculations translate into MIDI data that triggers synthesized tones, emulating the sound of a real electric guitar.
+- Algorithms model the interactions between guitar strings, pickups, and amplifiers, while mathematical equations simulate the complex vibrations of the strings
+
+
+
+- Filters and Timbre, 
+- envelopes, 
+- frequencies, 
+- resonce of strings, 
+- tone + texture,
+- waveforms and oscillators
+- modulation and filtering,
+- MIDI Processing
+- Data structures
+- Mathematics and music
+
+
+Filters and Timbre
+- Coding filters involves designing algorithms that modify the frequency content of a waveform over time. For example, a low-pass filter attenuates frequencies above a certain cutoff point, resulting in a warmer and mellower sound
+
+Envelopes
+- dynamic changes in loudness over time, often characterized by attack, decay, sustain, and release phases
+- the importance of attack, decay, sustain, and release (ADSR) envelopes
+- Attack defines the sound's initial transient, crucial for percussive sounds like drums
+- Decay shapes the sound's early decrease in amplitude
+- Sustain maintains a constant amplitude during the sound's main portion
+- Release defines how the sound fades out after the key is released
+- shorter attacks and decays create plucked instrument sounds, while longer releases mimic the sustain of bowed strings.
+- Envelopes, along with other synthesis parameters, heavily influence an instrument's timbral characteristics.
+
+Frequencies
+- Frequency is a critical parameter in sound synthesis, as it determines the perceived pitch of a sound. In coding, we manipulate the frequency of oscillators to create different musical notes. The relationship between frequency and pitch follows a logarithmic scale, with each octave doubling the frequency.
+
+Waveforms and oscillators
+- Manipulating audio waveforms involves changing the shape, frequency, or amplitude of sound waves to achieve desired effects
+- the concept of waveform generation. Waveforms are representations of sound in the form of oscillations
+- Common waveforms include sine waves, square waves, sawtooth waves, and triangle waves. Sine waves produce pure tones, while the others introduce harmonics and different timbral qualities.
+- Coding allows us to generate these waveforms through algorithms that determine the discrete values of the waveform over time. For example, to create a sine wave, the algorithm calculates the sine of the angle at each time step and maps it to the audio amplitude.
+
+Modulation
+- Modulation techniques introduce complexity and movement to synthesized sounds. Modulation can affect parameters such as frequency, amplitude, and even filter cutoff. Techniques like frequency modulation (FM) synthesis generate intricate textures by modulating one waveform's frequency with another.
+- Coding modulation involves linking multiple oscillators and envelopes in intricate ways. This interplay creates evolving sonic landscapes that are both intricate and captivating
+
+
+MIDI Processing
+- When a user "plays" a virtual keyboard, for example, MIDI data is generated. This data includes information about the pitch, duration, velocity, and more
+- Developers write code to interpret MIDI events, triggering the appropriate sound-generating algorithms and adjusting parameters like attack, release, and modulation.
+- Algorithms handle MIDI data, translating key presses, pedal movements, and velocity into instructions for sound generation
+
+Data Structures
+- Efficient data structures are essential for storing and manipulating audio waveforms, MIDI events, and parameter settings. Arrays and linked lists are commonly used to organize and process this data, ensuring smooth real-time performance.
+
+Mathematics
+- Mathematical concepts such as Fourier analysis and wave equations underpin sound synthesis. The application of calculus, linear algebra, and digital signal processing enables the manipulation of audio waveforms to create diverse textures and effects.
+
+
+
+C:\Program Files\Cakewalk\Studio Instruments\SI-Bass Guitar\Multisamples
+
+
+
+
+
+
+
+
